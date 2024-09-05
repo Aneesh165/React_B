@@ -1,16 +1,19 @@
-import React from 'react';
+import React from "react";
+import "./style.css";
 
-function ProfileCard ({ name, age, profilePicture, bio })  {
+function ProfileCard({ name, age, profilePicture, bio }) {
   return (
-    <div>
-      <img src={profilePicture}/>
+    <div className="card_body">
       <div>
-        <h2>{name}</h2>
-        <p>Age : {age}</p>
+        <img src={profilePicture} alt={name} />
+      </div>
+      <div className="black_div">
+        <p>{name}</p>
+        <p>{age}</p>
         <p>{bio}</p>
       </div>
     </div>
   );
-};
+}
 
 export default ProfileCard;
