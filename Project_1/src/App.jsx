@@ -15,7 +15,7 @@ function App() {
   }, [darkMode]);
 
   return (
-    <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white">
+    <div className="w-full h-[600vh] bg-gradient-to-bl from-sky-200 to-white dark:bg-gradient-to-bl dark:from-gray-950 dark:to-gray-800 text-black dark:text-white">
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <Home/>
     </div>
