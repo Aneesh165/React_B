@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
+import Home from './components/Home';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -16,6 +17,7 @@ function App() {
   return (
     <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white">
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
+      <Home/>
     </div>
   );
 }
