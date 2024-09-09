@@ -1,10 +1,10 @@
 import React from 'react'
-import Class from './component/Class'
+import Classes from './component/Classes'
 
 function App() {
   return (
     <div>
-      <Class/>
+      <Classes/>
     </div>
   )
 }
