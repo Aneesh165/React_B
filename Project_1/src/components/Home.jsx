@@ -101,14 +101,14 @@ function Home() {
         </div>
         <div className="relative w-[40%] h-[680px] flex justify-end overflow-hidden">
           <div className="relative w-[80%]">
-            {/* Mockup image inside the phone */}
+            {/*  image inside the phone */}
             <img
               className="absolute top-0 left-4 w-[83%] h-full object-cover rounded-[70px] "
               src="https://preview.cruip.com/appy/images/mockup-image-01.jpg"
               alt="Features illustration"
             />
 
-            {/* iPhone mockup image */}
+            {/* iPhone  image */}
             <img
               className="relative z-10 h-full"
               src="https://preview.cruip.com/appy/images/iphone-mockup.png"
