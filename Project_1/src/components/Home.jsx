@@ -5,7 +5,7 @@ function Home() {
 
   return (
     <>
-      <div className="w-[80%] h-[690px] mx-auto mt-8 flex justify-between ">
+      <div className="w-[80%] h-[690px] mx-auto mt-28 flex justify-between ">
         <div className="w-[60%] h-[680px] pl-6 flex flex-col mt-6 pt-6">
           <div className="w-[90%] ml-8 mt-16 py-4 text-black dark:text-white">
             <h1 className="text-8xl font-bold">
