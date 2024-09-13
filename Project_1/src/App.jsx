@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import CarouselComponent from "./components/Carousel";
+import Carousel from "./components/Carousel";
+import Reality from "./components/Reality";
+
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -19,7 +21,8 @@ function App() {
     <div className="w-full h-[600vh] bg-white dark:bg-gray-900   text-black dark:text-white">
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <Home />
-      <CarouselComponent/>
+      <Carousel/>
+      <Reality/>
     </div>
   );
 }
