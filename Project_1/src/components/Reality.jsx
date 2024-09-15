@@ -94,7 +94,7 @@ function Reality() {
           </button>
         </div>
         <div className="w-[65%]">
-          <div></div>
+          <div className="w-[50%] h-auto" style={{backgroundImage: `url('https://preview.cruip.com/appy/images/video-thumb.jpg')`}}>sjv</div>
           <div></div>
           <div></div>
           <div></div>
