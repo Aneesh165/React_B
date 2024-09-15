@@ -27,7 +27,7 @@ function Home() {
               />
             </div>
             <div>
-              <button className="bg-green-600 text-white text-lg font-semibold py-3 px-6 rounded transition-all hover:bg-blue-600 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-300">
+              <button className="bg-[#3abab4] text-white text-lg font-semibold py-3 px-6 rounded transition-all hover:bg-blue-600 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-300">
                 Request Code
               </button>
             </div>

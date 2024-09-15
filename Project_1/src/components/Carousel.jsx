@@ -110,7 +110,7 @@ const Carousel = () => {
           </div>
 
           <button
-            className="absolute top-[95%] left-[10%] transform -translate-y-1/2 p-4 bg-teal-500 text-white rounded-xl"
+            className="absolute top-[95%] left-[10%] transform -translate-y-1/2 p-4 bg-[#3abab4] text-white rounded-xl"
             onClick={prevSlide}
             aria-label="Previous slide"
           >
