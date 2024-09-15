@@ -71,8 +71,8 @@ const Carousel = () => {
   };
 
   return (
-    <>
-      <div className="flex w-[80%] mx-auto pb-4 mt-16">
+ <div className="bg-gradient-to-b from-gray-100 to-white dark:bg-gradient-to-b dark:from-black dark:to-[#1f1f22]">
+      <div className="flex w-[80%] mx-auto pb-4 pt-16">
         <div className="flex flex-col text-center mx-auto ">
           <h1 className="text-6xl font-bold pb-4 ">
             From rough design files, to <br /> powerful products
@@ -137,7 +137,8 @@ const Carousel = () => {
           </button>
         </div>
       </section>
-    </>
+      </div>
+ 
   );
 };
 
