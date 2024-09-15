@@ -29,21 +29,20 @@ function Reality() {
           </button>
 
           <button
-  type="button"
-  class="w-[250px] hover:bg-[#3abab4]/90 hover:text-white focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 font-medium rounded text-lg px-5 py-2 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 shadow-md group"
->
-  <svg
-    class="w-6 h-6 me-2 group-hover:fill-white" 
-    aria-hidden="true"
-    xmlns="http://www.w3.org/2000/svg"
-    fill="#3abab4"
-    viewBox="0 0 20 17"
-  >
-    <path d="M8 3l4 4H4zM8 13L4 9h8zM1 0h14v2H1zM1 14h14v2H1z"></path>
-  </svg>
-  Collection List
-</button>
-
+            type="button"
+            class="w-[250px] hover:bg-[#3abab4]/90 hover:text-white focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 font-medium rounded text-lg px-5 py-2 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 shadow-md group"
+          >
+            <svg
+              class="w-6 h-6 me-2 group-hover:fill-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#3abab4"
+              viewBox="0 0 20 17"
+            >
+              <path d="M8 3l4 4H4zM8 13L4 9h8zM1 0h14v2H1zM1 14h14v2H1z"></path>
+            </svg>
+            Collection List
+          </button>
 
           <button
             type="button"
@@ -76,7 +75,7 @@ function Reality() {
             </svg>
             Styling Basics
           </button>
-          
+
           <button
             type="button"
             class="w-[250px] hover:bg-[#3abab4]/90 hover:text-white focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 font-medium rounded text-lg px-5 py-2 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 shadow-md group"
@@ -93,11 +92,11 @@ function Reality() {
             Image Field
           </button>
         </div>
-        <div className="w-[65%]">
-          <div className="w-[50%] h-auto" style={{backgroundImage: `url('https://preview.cruip.com/appy/images/video-thumb.jpg')`}}>sjv</div>
-          <div></div>
-          <div></div>
-          <div></div>
+        <div class="w-[65%]  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mx-auto px-10">
+          <div class="relative w-[400px] rounded-lg h-[300px]">
+          <img class="w-full h-auto rounded-lg shadow-lg" src="https://preview.cruip.com/appy/images/video-thumb.jpg"alt="Video thumbnail"/>
+            
+          </div>
         </div>
       </section>
     </div>
