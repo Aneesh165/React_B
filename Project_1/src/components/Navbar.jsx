@@ -54,7 +54,7 @@ function Navbar({ darkMode, setDarkMode }) {
 
       <div className="group relative inline-block">
         <div className="cursor-pointer font-semibold text-lg text-gray-600 hover:text-black dark:text-gray-300 dark:hover:text-white">
-          Resources
+          Resources 
         </div>
         <div className="absolute hidden group-hover:block dark:bg-gray-700 shadow-lg rounded-md w-40 mt-2 z-10">
           <a href="#" className="block px-4 py-2 ">Help Center</a>
