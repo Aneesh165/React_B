@@ -2,7 +2,8 @@ import React from "react";
 
 function Review() {
   return (
-    <div className="w-[80%] mx-auto flex flex-wrap gap-10 py-16 mt-2 ">
+    <>
+     <div className="w-[80%] mx-auto flex flex-wrap gap-10 py-16 mt-2">
       <div className="w-[48%] flex flex-col justify-center">
         <div className="w-[20%] mx-auto my-2">
           <img
@@ -12,7 +13,7 @@ function Review() {
           />
         </div>
         <div>
-          <p className="text-xl text-center text-[#3a3a3c] pb-2">
+          <p className="text-xl text-center text-[#3a3a3c] pb-2 dark:text-white">
             “ This is a great app and the value is amazing. Since I <br />{" "}
             purchased it I have been using it everyday! Highly <br /> recommend
             it. “
@@ -35,7 +36,7 @@ function Review() {
           />
         </div>
         <div>
-          <p className="text-xl text-center text-[#3a3a3c] pb-2">
+          <p className="text-xl text-center text-[#3a3a3c] pb-2 dark:text-white">
             “ This is a great app and the value is amazing. Since I <br />{" "}
             purchased it I have been using it everyday! Highly <br /> recommend
             it. “
@@ -58,7 +59,7 @@ function Review() {
           />
         </div>
         <div>
-          <p className="text-xl text-center text-[#3a3a3c] pb-2">
+          <p className="text-xl text-center text-[#3a3a3c] pb-2 dark:text-white">
             “ This is a great app and the value is amazing. Since I <br />{" "}
             purchased it I have been using it everyday! Highly <br /> recommend
             it. “
@@ -81,7 +82,7 @@ function Review() {
           />
         </div>
         <div>
-          <p className="text-xl text-center text-[#3a3a3c] pb-2">
+          <p className="text-xl text-center text-[#3a3a3c] pb-2 dark:text-white">
             “ This is a great app and the value is amazing. Since I <br />{" "}
             purchased it I have been using it everyday! Highly <br /> recommend
             it. “
@@ -96,6 +97,10 @@ function Review() {
         <div></div>
       </div>
     </div>
+    <div className="w-[75%] mx-auto py-2">
+        <hr />
+    </div>
+    </>
   );
 }
 
