@@ -12,8 +12,8 @@ function Plan() {
           officia deserunt <br /> mollit laborum — semper quis lectus nulla.
         </p>
       </div>
-      <div className="w-[80%] mx-auto flex justify-between px-4">
-        <div className="w-[25%%]">
+      <div className="w-[80%] mx-auto flex justify-between gap-1 px-4">
+        <div className="w-[25%]">
           <h4 className="text-xl font-semibold py-4">All plans include:</h4>
           <p className="flex text-md text-gray-400 py-1 gap-1">
             <svg
@@ -104,8 +104,8 @@ function Plan() {
             Smart forms and reports
           </p>
         </div>
-        <div className="w-[25%%] bg-white text-black">
-          <div className="p-4">
+        <div className="w-[25%] bg-white text-black">
+          <div className="w-[75%] mx-auto">
             <div className="flex justify-between">
               <h5>Yearly</h5>
               <p>-40%</p>
@@ -115,8 +115,28 @@ function Plan() {
           </div>
           <div></div>
         </div>
-        <div className="w-[25%%]">b ngccv </div>
-        <div className="w-[25%%]">mb j </div>
+        <div className="w-[25%] bg-white text-black">
+          <div className="w-[75%] mx-auto">
+            <div className="flex justify-between">
+              <h5>Yearly</h5>
+              <p>-40%</p>
+            </div>
+            <div>$27</div>
+            <div>— Lorem ipsum dolor amet sit consect adipiscing.</div>
+          </div>
+          <div></div>
+        </div>
+        <div className="w-[25%] bg-white text-black">
+          <div className="w-[75%] mx-auto ">
+            <div className="flex justify-between">
+              <h5>Yearly</h5>
+              <p>-40%</p>
+            </div>
+            <div>$27</div>
+            <div>— Lorem ipsum dolor amet sit consect adipiscing.</div>
+          </div>
+          <div></div>
+        </div>
       </div>
     </div>
   );
