@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Carousel from "./components/Carousel";
 import Reality from "./components/Reality";
 import Build from "./components/Build";
+import Plan from "./components/Plan";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Carousel/>
       <Reality/>
       <Build/>
+      <Plan/>
     </div>
   );
 }
