@@ -12,8 +12,8 @@ function Plan() {
           officia deserunt <br /> mollit laborum — semper quis lectus nulla.
         </p>
       </div>
-      <div className="w-[80%] mx-auto flex justify-between gap-1 px-4">
-        <div className="w-[25%]">
+      <div className="w-[80%] mx-auto flex justify-between gap-5 px-4">
+        <div className="w-[23%]">
           <h4 className="text-xl font-semibold py-4">All plans include:</h4>
           <p className="flex text-md text-gray-400 py-1 gap-1">
             <svg
@@ -104,7 +104,26 @@ function Plan() {
             Smart forms and reports
           </p>
         </div>
-        <div className="w-[25%] bg-white text-black">
+        <div className="w-[23%] bg-white text-black flex flex-col justify-between">
+          <div className="w-[75%] mx-auto mb-[138px]">
+            <div className="flex justify-between my-2">
+              <h5 className="text-2xl font-semibold py-1">Yearly</h5>
+              <p className="my-2  bg-teal-200 text-teal-600 rounded-2xl px-2">-40%</p>
+            </div>
+            <div className="flex my-2">
+            <p className="text-gray-700 text-2xl font-bold mt-auto">$</p>
+            <h1 className="text-5xl font-bold">27</h1>
+            <p className="text-gray-700 text-lg  mt-auto">/billedyearly</p>
+            </div>
+            <div className="text-gray-500">
+              <p>— Lorem ipsum dolor amet sit consect adipiscing.</p>
+              </div>
+          </div>
+          <div className="mx-auto mb-6">
+            <button className="px-14 py-2 text-white font-semibold bg-[#3abab4]">GO Premium</button>
+          </div>
+        </div>
+        <div className="w-[23%] bg-white text-black">
           <div className="w-[75%] mx-auto">
             <div className="flex justify-between">
               <h5>Yearly</h5>
@@ -115,18 +134,7 @@ function Plan() {
           </div>
           <div></div>
         </div>
-        <div className="w-[25%] bg-white text-black">
-          <div className="w-[75%] mx-auto">
-            <div className="flex justify-between">
-              <h5>Yearly</h5>
-              <p>-40%</p>
-            </div>
-            <div>$27</div>
-            <div>— Lorem ipsum dolor amet sit consect adipiscing.</div>
-          </div>
-          <div></div>
-        </div>
-        <div className="w-[25%] bg-white text-black">
+        <div className="w-[23%] bg-white text-black">
           <div className="w-[75%] mx-auto ">
             <div className="flex justify-between">
               <h5>Yearly</h5>
