@@ -3,16 +3,16 @@ import React from "react";
 function Plan() {
   return (
     <div className="bg-[#212124] text-white py-6">
-      <div className=" text-center mx-auto pt-10 pb-8">
-        <h1 className="text-6xl font-bold py-2">
+      <div className=" text-center mx-auto pt-10 pb-12">
+        <h1 className="text-6xl font-bold pt-2 pb-4">
           Start building for free, then <br /> add a plan to go live
         </h1>
-        <p className="text-xl my-2">
+        <p className="text-xl py-2">
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
           officia deserunt <br /> mollit laborum — semper quis lectus nulla.
         </p>
       </div>
-      <div className="w-[80%] mx-auto flex justify-between gap-5 px-4 pb-20">
+      <div className="w-[80%] mx-auto flex justify-between gap-5 px-4 pb-14">
         <div className="w-[23%]">
           <h4 className="text-xl font-semibold py-4">All plans include:</h4>
           <p className="flex text-md text-gray-400 py-1 gap-1">
