@@ -2,7 +2,7 @@ import React from "react";
 
 function Launch() {
   return (
-    <div className="w-[80%] mx-auto py-8 mt-20 text-center">
+    <div className="w-[80%] mx-auto py- mt-20 text-center">
       <div>
         <h1 className="text-6xl text-[#1d1d20] font-bold">
           Put clarity at the center of <br /> your website
