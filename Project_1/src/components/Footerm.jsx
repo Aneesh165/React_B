@@ -25,8 +25,8 @@ function Footerm() {
             </div>
 
             <div className="w-[16%] ">
-                <h6>Products</h6>
-                <ul>
+                <h6 className='font-semibold'>PRODUCTS</h6>
+                <ul className='text-gray-600 pt-2'>
                   <li><a href="#0">Drag And Drop</a></li>
                   <li><a href="#0">Visual Studio X</a></li>
                   <li><a href="#0">Easy Content</a></li>
@@ -34,8 +34,8 @@ function Footerm() {
               </div>
 
               <div className="w-[16%]">
-                <h6>Resources</h6>
-                <ul>
+                <h6 className=' font-semibold'>RESOURCES</h6>
+                <ul className='text-gray-600 pt-2'>
                   <li><a href="#0">Industries and tools</a></li>
                   <li><a href="#0">Use cases</a></li>
                   <li><a href="#0">Blog</a></li>
@@ -44,8 +44,8 @@ function Footerm() {
               </div>
 
               <div className="w-[16%]">
-                <h6>Company</h6>
-                <ul>
+                <h6 className=' font-semibold'>COMPANY</h6>
+                <ul className='text-gray-600 pt-2'>
                   <li><a href="#0">About us</a></li>
                   <li><a href="#0">Press</a></li>
                   <li><a href="#0">Customer stories</a></li>
@@ -53,8 +53,8 @@ function Footerm() {
               </div>
 
               <div className="w-[16%]">
-                <h6>Support</h6>
-                <ul>
+                <h6 className=' font-semibold'>SUPPORT</h6>
+                <ul className='text-gray-600 pt-2'>
                   <li><a href="#0">Documentation</a></li>
                   <li><a href="#0">Tutorials &amp; guides</a></li>
                   <li><a href="#0">Open-source</a></li>
