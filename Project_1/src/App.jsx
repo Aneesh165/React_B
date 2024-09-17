@@ -7,6 +7,7 @@ import Build from "./components/Build";
 import Plan from "./components/Plan";
 import Review from "./components/Review";
 import Launch from "./components/Launch";
+import Footerm from "./components/Footerm";
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       <Plan/>
       <Review/>
       <Launch/>
+      <Footerm/>
     </div>
   );
 }
