@@ -6,7 +6,7 @@ function Progressbar() {
 
   const updateprogress = (now) => {
     const { left, width } = now.target.getBoundingClientRect();
-    let newProgress = ((now.clientX - left) / width) * 100;
+    let newProgress = ((now.clientX - left) / width)  ;
 
     setprogress(Math.round(newProgress)); 
   };
