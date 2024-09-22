@@ -31,6 +31,7 @@ function Todo() {
         
     }
 
+    // completed
     const toggle = (id) =>{
         settodolist((prvtodo)=>{
             return prvtodo.map((todo)=>{
