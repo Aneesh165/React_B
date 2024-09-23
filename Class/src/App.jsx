@@ -38,13 +38,27 @@
 
 // export default App
 
-import React from 'react'
-import Form from './component/Form'
+// import React from 'react'
+// import Form from './component/Form'
 
-function App() {
+// function App() {
+//   return (
+//     <div>
+//       <Form/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+import React from 'react'
+import Useeffect from './component/Useeffect'
+
+const App = () => {
   return (
     <div>
-      <Form/>
+      <Useeffect/>
     </div>
   )
 }
