@@ -1,10 +1,10 @@
 import React from 'react'
-import Axioss from './components/Axioss'
+import Carousel from './components/Carousel'
 
 function App() {
   return (
     <div>
-      <Axioss/>
+    <Carousel/>
     </div>
   )
 }
