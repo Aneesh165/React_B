@@ -1,10 +1,13 @@
 import React from 'react'
-import Colour from './components/Colour'
+import Star from './components/Star'
+
+// import Colour from './components/Colour'
 
 const App = () => {
   return (
     <div>
-      <Colour/>
+      {/* <Colour/> */}
+      <Star/>
     </div>
   )
 }

@@ -1,0 +1,35 @@
+.star-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wrap {
+    width: 200px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  img {
+    width: 100%; 
+    height: auto;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .star-rating {
+    display: flex;
+    margin-right: 5px; 
+  }
+  
+  .filled-star {
+    color: gold; 
+  }
+  
+  .star-count {
+    font-size: 14px; 
+  }
