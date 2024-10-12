@@ -1,22 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
+import axios from'axios'
 
 const CreateUser = () => {
+
+  const[name,setName]=useState()
+  const[email,setEmail]=useState()
+  const[age,setAge]=useState()
+
+  const handleSubmit=(e)=>{
+    e.preventDefault();
+    
+  }
+ 
+  
+
   return (
     <div>
       <div>
-        <form>
+        <form onSubmit={handleSubmit}>
             <h2>Add User</h2>
           <div>
             <label>Name:</label>
-            <input type="text" />
+            <input type="text" onChange={(e)=>setName(e.target.value)}/>
           </div>
           <div>
             <label>Email:</label>
-            <input type="email" />
+            <input type="email" onChange={(e)=>setEmail(e.target.value)}/>
           </div>
           <div>
             <label>Age:</label>
-            <input type="number" />
+            <input type="number" onChange={(e)=>setAge(e.target.value)}/>
           </div>
           <button>Submit</button>
         </form>
