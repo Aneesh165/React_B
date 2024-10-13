@@ -1,7 +1,10 @@
-const mongoose =require('mongoose')
+import mongoose, { model } from "mongoose"
 
-const UsersSc = new mongoose.Schema({
+const UsersSchema = new mongoose.Schema({
     name: String,
     email:String,
     age:Number
 })
+
+const UserModel = mongoose.model('user',UsersSchema)
+model.exports = UserModel
