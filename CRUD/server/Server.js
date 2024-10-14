@@ -29,7 +29,7 @@ app.get("/",(req,res)=>{
     
 })
 
-app.post('/CreateUser',(req,res)=>{
+app.post('/createUser',(req,res)=>{
     UserModel.create(req.body)
     .then(User => res.json(User))
     .catch(err => res.json(err))
