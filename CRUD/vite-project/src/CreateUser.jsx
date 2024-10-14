@@ -7,7 +7,7 @@ const CreateUser = () => {
   const[email,setEmail]=useState()
   const[age,setAge]=useState()
 
-  const handleSubmit=(e)=>{
+  const Submit=(e)=>{
     e.preventDefault();
     axios.post("http://localhost:8000/createUser",{name,email,age})
     .then(result=>console.log(result)
@@ -21,7 +21,7 @@ const CreateUser = () => {
   return (
     <div>
       <div>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={Submit}>
             <h2>Add User</h2>
           <div>
             <label>Name:</label>
