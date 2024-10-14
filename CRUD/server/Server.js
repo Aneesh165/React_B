@@ -2,7 +2,7 @@ import express from 'express'
 import mongoose from 'mongoose'
 import cors from 'cors'
 import dotenv from 'dotenv'
-import UserModel from './models/Users'
+import UserModel from './models/Users.js'
 
 const app =express()
 app.use(cors()) //server side in frontend
