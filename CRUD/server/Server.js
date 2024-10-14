@@ -1,12 +1,12 @@
 import express from 'express'
 import mongoose from 'mongoose'
-// import cors from 'cors'
+import cors from 'cors'
 import dotenv from 'dotenv'
-// import UserModel from './models/Users'
+import UserModel from './models/Users'
 
 const app =express()
-// app.use(cors()) //server side in frontend
-// app.use(express.json) //D from front to back
+app.use(cors()) //server side in frontend
+app.use(express.json) //D from front to back
 
 dotenv.config()
 
@@ -29,11 +29,11 @@ app.get("/",(req,res)=>{
     
 })
 
-// app.post('/CreateUser',(req,res)=>{
-//     UserModel.create(req.body)
-//     .then(User => res.json(User))
-//     .catch(err => res.json(err))
-// })
+app.post('/CreateUser',(req,res)=>{
+    UserModel.create(req.body)
+    .then(User => res.json(User))
+    .catch(err => res.json(err))
+})
 
 //running server
 app.listen(process.env.PORT,()=>{
