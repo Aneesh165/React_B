@@ -23,11 +23,11 @@ mongoose.connection.on("disconnected",()=>{
     console.log('MongoDB is Disconnected');
 })
 
-// app.get("/",(req,res)=>{
-//     res.send('Hello')
-//     console.log('Hello');
+app.get("/",(req,res)=>{
+    res.send('Hello')
+    console.log('Hello');
     
-// })
+})
 
 app.post('/createUser',(req,res)=>{
     UserModel.create(req.body)
