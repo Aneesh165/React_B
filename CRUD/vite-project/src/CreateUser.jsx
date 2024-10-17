@@ -8,8 +8,10 @@ const CreateUser = () => {
   const[age,setAge]=useState()
 
   const Submit=(e)=>{
+
+    
     e.preventDefault();
-    axios.post("http://localhost:8000/createUser",{name,email,age})
+    axios.post("http://localhost:8001/CreateUser",{name,email,age})
     .then(result=>console.log(result)
     )
     .catch(err=>console.log(err)
